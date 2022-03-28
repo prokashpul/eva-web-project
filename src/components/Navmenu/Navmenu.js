@@ -14,7 +14,7 @@ const Navmenu = () => {
     <nav className="bg-slate-400 fixed  w-full  md:h-20 md:flex justify-between items-center md:px-20">
       <div className="flex z-10 md:static w-full items-center justify-between py-4">
         <div className="flex items-center">
-          <FireIcon className="w-12 mr-2 text-green-400"></FireIcon>{" "}
+          <FireIcon className="w-12 mr-2 text-cyan-500"></FireIcon>{" "}
           <span className="font-mono font-bold text-5xl">EvaWab</span>
         </div>
         <div className="menu-bar" onClick={() => setMenu(!menuOpen)}>
