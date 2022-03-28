@@ -1,12 +1,13 @@
 import React from "react";
 
-const Link = (props) => {
+import Customlink from "../Customlink/Customlink";
+const Links = (props) => {
   const { name, link } = props.link;
   return (
     <li className="text-xl text-gray-100 md:text-black hover:text-cyan-500 py-5 md:py-0">
-      <a href={link}>{name}</a>
+      <Customlink to={link}>{name}</Customlink>
     </li>
   );
 };
 
-export default Link;
+export default Links;

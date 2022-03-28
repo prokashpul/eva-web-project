@@ -14,7 +14,9 @@ const Headercontent = () => {
           autem, ducimus deserunt iusto blanditiis dolorum minus error
           reprehenderit id possimus.
         </p>
-        <Button btn="Start A Campaign"></Button>
+        <Button btn="Start A Campaign">
+          <a href="/home"></a>{" "}
+        </Button>
       </div>
       <div className="right">
         <img src={img} alt="" className="w-full" />
